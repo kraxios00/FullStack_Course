@@ -10,7 +10,7 @@ const Numbers = ({ persons, newFilter }) => {
             {
                 filteredPersons.length > 0 && (
                     filteredPersons.map(person => (
-                        <p>{`${person.name} : ${person.number}`}</p>
+                        <p key={person.id}>{`${person.name} : ${person.number}`}</p>
                     ))
                 )
             }

@@ -1,0 +1,20 @@
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.message_add {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.message_update {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.message_delete {
+    color: #fff;
+    background-color: #dc3545;
+}
